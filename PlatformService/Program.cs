@@ -1,5 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using PlatformService.Data;
+using PlatformService.Services.Interfaces;
+using PlatformService.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,7 +12,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<PlatfromDbContext>(opt => opt.UseInMemoryDatabase("TempDatabaseForPlatfrom"));
-
+builder.Services.AddScoped<IPlatformService, PlatformServiceClass>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -26,4 +28,5 @@ app.UseAuthorization();
 
 app.MapControllers();
 
+SeedingData.PrepForPopulatingData(app);
 app.Run();
