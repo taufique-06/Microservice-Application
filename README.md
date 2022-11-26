@@ -18,4 +18,4 @@ Docker: It is a containerization platform, meaning that it enables you to packag
 Next Step:
 
 1. Create a docker file - https://learn.microsoft.com/en-us/dotnet/core/docker/build-container?tabs=windows
-2. Build a docker image - 'docker build -t taufique06/platfromservice .'
+2. Build a docker image - ' docker build -t taufique06/platfromservice . '
