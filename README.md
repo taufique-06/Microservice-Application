@@ -14,3 +14,7 @@ Note: The differences between asynchronous and synchronous include: Async is mul
 # Docker and Kubernetes
 
 Docker: It is a containerization platform, meaning that it enables you to package your application into images and run them as "containers" on any platform that can run docker. In simple term, When you develop an application on your machine and it works perfectly fine on your machine. However, when you share yout files with others, it doesnt work on their machine. This problem can be solved by docker which will allow you to package your application into image. Once you have that image, you can take that image and place onto anything else that is running docker and run that image up as a container.
+
+Next Step:
+
+1. Create a docker file - https://learn.microsoft.com/en-us/dotnet/core/docker/build-container?tabs=windows
