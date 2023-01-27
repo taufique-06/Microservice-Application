@@ -26,8 +26,15 @@ Next Step:
 2. To stop a container docker stop <containerId>
 3. To restart a container docker start <containerId>
 4. To push your image into Docker hub - docker push <imageName>
+ 
+# Kubernetes / K8S
+  In a nutshell, Kubernetes helps us to make sure that our containers are running continuously and even if they crash that thet get restarted or to scale them out. Docker compose can be used as an alternative of kubernetes but that's only for devlopment purpose. In terms of production evn, kubernetes is the way to go. 
+  # Kubernetes Architecture
+  ![tt](https://user-images.githubusercontent.com/85470428/215165241-11c65b99-3f70-46fe-8084-1ab267de5cce.png)
+  1. Cluster has two types: Single Cluster which is in our case docker desktop and multi-cluster. Also we dont need to setup a cluster or Node as we are running kubernetes
+  2. Inside the Node, we have Pod. A pod basically runs a container. It is used to host and run containers. A single pod can run multiple containers
+  3. Node Port is something that allows to test whether the kubernetes working or not. It is only for development purposes. We dont use it in prod env. 
+  4. A pod can communicate with another pod by using Cluster IP
+  
 
-  # Kubernetes
-  
-  
 
