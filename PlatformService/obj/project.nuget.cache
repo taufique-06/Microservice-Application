@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "NM8wG7o3DCThtJrYWzvANWObIO0OqmuSJvbKf2Sgud5Au1JQ+nFusWWIgTNLI9iONMwfT0sTkjKUKPQoEQrJRg==",
+  "dgSpecHash": "I0rnpjRDfNQNiE0+9XpDYDZ9k+OP4oC8rI1q9xuB7+Mlg1aJH9Wiozd4b6hjiXu945f9xcetZ47Z4lRsT4ZBwQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\taufique.azad\\Repos\\MyPersonalProject\\Microservice-Application\\PlatformService\\PlatformService.csproj",
   "expectedPackageFiles": [
@@ -43,6 +43,7 @@
     "C:\\Users\\admin.taufique.a\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\admin.taufique.a\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\admin.taufique.a\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
+    "C:\\Users\\admin.taufique.a\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.0\\microsoft.visualstudio.azure.containers.tools.targets.1.17.0.nupkg.sha512",
     "C:\\Users\\admin.taufique.a\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\admin.taufique.a\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
     "C:\\Users\\admin.taufique.a\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
