@@ -19,3 +19,4 @@ Next Step:
 
 1. Create a docker file - https://learn.microsoft.com/en-us/dotnet/core/docker/build-container?tabs=windows. In my opinion, if you didnt enable docker when creating your application, you can do that by right clicking your project -> Add -> Docker Suport (Visual Studio 2022)
 2. Build a docker image - [docker build -t taufique06/platfromservice .] -this how you should name an image. So after -t, type your dockerHub username and then your service name. 
+3. To run up our image as a container docker run -p 8088:80 -d taufique06/platfromservice
