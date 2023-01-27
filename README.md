@@ -26,3 +26,8 @@ Next Step:
 2. To stop a container docker stop <containerId>
 3. To restart a container docker start <containerId>
 4. To push your image into Docker hub - docker push <imageName>
+
+  # Kubernetes
+  
+  
+
