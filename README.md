@@ -42,6 +42,6 @@ Next Step:
  2. To deploy our yaml file which is called platform-deployment.yaml - kubectl apply -f <.yaml file name>
  3. Other commands line:
   3.1: kubectl get deployments 
-  3.2: kubectl get pods
+  3.2: kubectl get pods - to run our service
  
  4. At this stage we have our service up and running but we have no way of accessing it. So creating a node port will give us the access. 
