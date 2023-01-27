@@ -36,5 +36,12 @@ Next Step:
   3. Node Port is something that allows to test whether the kubernetes working or not. It is only for development purposes. We dont use it in prod env. 
   4. A pod can communicate with another pod by using Cluster IP
   
+# Deploy the Platform Service in Kubernetes
 
-
+ 1. For that a folder callled K8S files is created. Inside that folder we created a .yaml file
+ 2. To deploy our yaml file which is called platform-deployment.yaml - kubectl apply -f <.yaml file name>
+ 3. Other commands line:
+  3.1: kubectl get deployments 
+  3.2: kubectl get pods
+ 
+ 4. At this stage we have our service up and running but we have no way of accessing it. So creating a node port will give us the access. 
