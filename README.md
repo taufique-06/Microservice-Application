@@ -50,3 +50,12 @@ Next Step:
  
  # Creating Command Service
 Note: If you run two apps in the same time, make sure you change the port by going to launchSettings.json
+ 
+ # Synchronous & Asynchronous Messaging
+ 
+ 1. Synchronous Messaging - In short, synchronous messaging is basically talking about a request response cycle type. So as a client I am going to make a request to our http endpoint in our case and will wait until the response comes back. In addition, synchronous services usually need to know each other. Thus when making a synchronous request to an end point you need to know where the endpoint is. 
+ 
+ ![oooo](https://user-images.githubusercontent.com/85470428/215283877-a92d3eb6-5230-4e71-92c3-de2a5dc1aeb7.png)
+ 
+![aa](https://user-images.githubusercontent.com/85470428/215284033-40a53b42-be97-4dfb-be6f-edb60c3fe0f2.png)
+
