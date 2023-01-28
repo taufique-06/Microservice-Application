@@ -10,11 +10,11 @@
         "projectUniqueName": "C:\\Users\\taufique.azad\\Repos\\MyPersonalProject\\Microservice-Application\\CommandsService\\CommandsService.csproj",
         "projectName": "CommandsService",
         "projectPath": "C:\\Users\\taufique.azad\\Repos\\MyPersonalProject\\Microservice-Application\\CommandsService\\CommandsService.csproj",
-        "packagesPath": "C:\\Users\\taufique.azad\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\admin.taufique.a\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\taufique.azad\\Repos\\MyPersonalProject\\Microservice-Application\\CommandsService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\taufique.azad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\admin.taufique.a\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,8 +22,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.mountainwarehouse.com/api/odata": {}
+          "http://mwtools:8083/api/odata": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {

@@ -1429,7 +1429,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\taufique.azad\\.nuget\\packages\\": {}
+    "C:\\Users\\admin.taufique.a\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -1437,11 +1437,11 @@
       "projectUniqueName": "C:\\Users\\taufique.azad\\Repos\\MyPersonalProject\\Microservice-Application\\CommandsService\\CommandsService.csproj",
       "projectName": "CommandsService",
       "projectPath": "C:\\Users\\taufique.azad\\Repos\\MyPersonalProject\\Microservice-Application\\CommandsService\\CommandsService.csproj",
-      "packagesPath": "C:\\Users\\taufique.azad\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\admin.taufique.a\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\taufique.azad\\Repos\\MyPersonalProject\\Microservice-Application\\CommandsService\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\taufique.azad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\admin.taufique.a\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1449,8 +1449,8 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://nuget.mountainwarehouse.com/api/odata": {}
+        "http://mwtools:8083/api/odata": {},
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
@@ -1517,5 +1517,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://mwtools:8083/api/odata'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    }
+  ]
 }
