@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\taufique.azad\\Repos\\MyPersonalProject\\Microservice-Application\\PlatformService\\PlatformService.csproj": {}
+    "C:\\Users\\taufique.azad\\Repos\\MyPersonalProject\\Microservice-Application\\CommandsService\\CommandsService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\taufique.azad\\Repos\\MyPersonalProject\\Microservice-Application\\PlatformService\\PlatformService.csproj": {
+    "C:\\Users\\taufique.azad\\Repos\\MyPersonalProject\\Microservice-Application\\CommandsService\\CommandsService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\taufique.azad\\Repos\\MyPersonalProject\\Microservice-Application\\PlatformService\\PlatformService.csproj",
-        "projectName": "PlatformService",
-        "projectPath": "C:\\Users\\taufique.azad\\Repos\\MyPersonalProject\\Microservice-Application\\PlatformService\\PlatformService.csproj",
+        "projectUniqueName": "C:\\Users\\taufique.azad\\Repos\\MyPersonalProject\\Microservice-Application\\CommandsService\\CommandsService.csproj",
+        "projectName": "CommandsService",
+        "projectPath": "C:\\Users\\taufique.azad\\Repos\\MyPersonalProject\\Microservice-Application\\CommandsService\\CommandsService.csproj",
         "packagesPath": "C:\\Users\\taufique.azad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\taufique.azad\\Repos\\MyPersonalProject\\Microservice-Application\\PlatformService\\obj\\",
+        "outputPath": "C:\\Users\\taufique.azad\\Repos\\MyPersonalProject\\Microservice-Application\\CommandsService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\taufique.azad\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -47,21 +47,17 @@
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[7.0.2, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[7.0.2, )"
             },
             "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
-              "version": "[7.0.0, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[7.0.2, )"
             },
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",

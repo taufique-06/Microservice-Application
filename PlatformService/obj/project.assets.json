@@ -3865,7 +3865,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\admin.taufique.a\\.nuget\\packages\\": {}
+    "C:\\Users\\taufique.azad\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -3873,11 +3873,11 @@
       "projectUniqueName": "C:\\Users\\taufique.azad\\Repos\\MyPersonalProject\\Microservice-Application\\PlatformService\\PlatformService.csproj",
       "projectName": "PlatformService",
       "projectPath": "C:\\Users\\taufique.azad\\Repos\\MyPersonalProject\\Microservice-Application\\PlatformService\\PlatformService.csproj",
-      "packagesPath": "C:\\Users\\admin.taufique.a\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\taufique.azad\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\taufique.azad\\Repos\\MyPersonalProject\\Microservice-Application\\PlatformService\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\admin.taufique.a\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\taufique.azad\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3885,8 +3885,8 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "http://mwtools:8083/api/odata": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nuget.mountainwarehouse.com/api/odata": {}
       },
       "frameworks": {
         "net6.0": {
@@ -3957,13 +3957,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1803",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://mwtools:8083/api/odata'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
-    }
-  ]
+  }
 }
