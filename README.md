@@ -47,6 +47,8 @@ Next Step:
  4. At this stage we have our service up and running but we have no way of accessing it. So creating a node port will give us the access. 
  5. we created a file called platform-nodeport-srv.yaml which will create the node port for us. kubectl apply -f <.yaml file name> will create our node port service.
  6. To see that it is running, kubectl get services
+ 7. It is the same process for Command Service.
+ 8. To create ingress-nginx pod follow the instruction that is given to this link:  https://github.com/kubernetes/ingress-nginx
  
  # Creating Command Service
 Note: If you run two apps in the same time, make sure you change the port by going to launchSettings.json
