@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using PlatformService.DTOs;
 using PlatformService.Models;
 using PlatformService.Services.Interfaces;
+using PlatformService.SyncDataServices.Http;
 
 namespace PlatformService.Controllers
 {
@@ -12,11 +13,13 @@ namespace PlatformService.Controllers
     {
         private readonly IPlatformService _platformService;
         private readonly IMapper _mapper;
+        private readonly ICommandDataClient _commandDataClient;
 
-        public PlatformController(IPlatformService platformService, IMapper mapper)
+        public PlatformController(IPlatformService platformService, IMapper mapper, ICommandDataClient commandDataClient)
         {
             _platformService = platformService;
             _mapper = mapper;
+            _commandDataClient = commandDataClient;
         }
 
         [HttpGet]
@@ -37,13 +40,22 @@ namespace PlatformService.Controllers
         }
 
         [HttpPost]
-        public ActionResult<PlatformReadDTO> CreatePlatform(PlatformCreateDTO platformCreateDTO)
+        public async Task <ActionResult<PlatformReadDTO>> CreatePlatform(PlatformCreateDTO platformCreateDTO)
         {
             var platFrom = _mapper.Map<Platform>(platformCreateDTO);
             _platformService.CreatePlatform(platFrom);
             _platformService.SaveChange();
 
             var platfromReadDto = _mapper.Map<PlatformReadDTO>(platFrom);
+
+            try
+            {
+                await _commandDataClient.SendPlatformToCommand(platfromReadDto);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Could not send the message: {ex.Message}");
+            }
             return new PlatformReadDTO
             {
                 Id = platfromReadDto.Id,

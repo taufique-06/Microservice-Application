@@ -2,6 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using PlatformService.Data;
 using PlatformService.Services.Interfaces;
 using PlatformService.Services;
+using PlatformService.SyncDataServices.Http;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,6 +15,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<PlatfromDbContext>(opt => opt.UseInMemoryDatabase("TempDatabaseForPlatfrom"));
 builder.Services.AddScoped<IPlatformService, PlatformServiceClass>();
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+builder.Services.AddHttpClient<ICommandDataClient, HttpCommandDataClient>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
